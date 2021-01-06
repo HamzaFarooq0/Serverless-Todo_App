@@ -1,0 +1,113 @@
+.container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+.form{
+    background-color: rgba(231, 19, 19, 0);
+    padding: 15px;
+}
+
+
+  input {
+      padding: 10px 31px;
+      border: none;
+      font-size: 17px;
+      border-radius: 0;
+      border: 1px solid transparent;
+    }
+
+    input:hover {
+        background-color: #8af8e6;
+        border: none;
+    }
+
+
+
+  .add_button{
+      padding: 10px 30px;
+      border: none;
+      font-size: 17px;
+      border-radius: 0;
+      border: 1px solid transparent;
+      cursor: pointer;
+  }
+  .add_button:hover {
+    background-color: #8af8e6;
+    border: none;
+  }
+
+  
+  .tasksBoard{
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    /*display: none;*/
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+  }
+
+
+  .delete_button {
+      padding: 4px 6px;
+      display: inline-block;
+      border: none;
+      font-size: 1rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 3px;
+      margin-left: 50%;
+    }
+    .delete_button:hover {
+        background-color: rgb(252, 45, 45);
+        transition: all .5s;
+        color: white;
+    }
+    
+    .update_button {
+      padding: 4px 6px;
+      display: inline-block;
+      border: none;
+      font-size: 1rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 3px;
+      margin-left: 30px;
+  }
+  .update_button:hover {
+    background-color: rgb(45, 135, 252);
+    transition: all .5s;
+    color: white;
+}
+
+
+  @media (max-width: 500px) {
+    .container{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    button{
+      width: 10%;
+    }
+  }

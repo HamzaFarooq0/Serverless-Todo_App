@@ -1,0 +1,6 @@
+body {
+	font-family: sans-serif;
+	color: #0f222d;
+	background: #e65c00;  /* fallback for old browsers */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

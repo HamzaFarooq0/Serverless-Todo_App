@@ -1,0 +1,4 @@
+[build]
+    command = "yarn build && cd functions && npm i"
+    publish = "public"
+    functions = "functions/"
